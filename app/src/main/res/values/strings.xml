@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="title_activity_five">five</string>
+    <string name="outof"> Out of 5</string>
+</resources>
