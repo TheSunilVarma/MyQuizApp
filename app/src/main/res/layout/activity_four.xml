@@ -12,23 +12,23 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="@dimen/_11dp"
         android:text="Question 4"
-        android:textSize="20sp"
+        android:textSize="@dimen/_20sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="44dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="336dp"
-        android:layout_height="126dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp"
-        android:padding="5dp"
-        android:text="Turn the Switch On !"
+        android:layout_marginTop="@dimen/_70dp"
+        android:padding="@dimen/_10dp"
+        android:text="@string/turn_the_switch_on"
 
-        android:textSize="24sp"
+        android:textSize="@dimen/_24sp"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="44dp" />
 
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="71dp"
+        android:layout_marginBottom="@dimen/_70dp"
         android:text="Next"
         android:onClick="sendMessage4"/>
 
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="198dp"
+        android:layout_marginBottom="@dimen/_170dp"
         android:text="Switch" />
 
 

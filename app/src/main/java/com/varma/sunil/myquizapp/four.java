@@ -26,12 +26,12 @@ public class four extends AppCompatActivity {
         if(checkfor1){
 
 
-                Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.correct, Toast.LENGTH_SHORT).show();
             points = points + 1;
 
         }
         else {
-            Toast.makeText(getApplicationContext(),"Wrong",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),R.string.wrong,Toast.LENGTH_SHORT).show();
         }
 
 

@@ -13,8 +13,6 @@ import static com.varma.sunil.myquizapp.MainActivity.points;
 
 public class three extends AppCompatActivity {
 
-    String answer3 = "Oreo";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,17 +38,17 @@ public class three extends AppCompatActivity {
 
             if(checkfor1 | checkfor3 | checkfor4)
             {
-                Toast.makeText(getApplicationContext(),"Wrong",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),R.string.wrong,Toast.LENGTH_SHORT).show();
             }
 
             else {
-                Toast.makeText(getApplicationContext(), "Correct", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), R.string.correct, Toast.LENGTH_SHORT).show();
                 points = points + 1;
             }
 
         }
         else {
-            Toast.makeText(getApplicationContext(),"Wrong",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),R.string.wrong,Toast.LENGTH_SHORT).show();
         }
 
         Intent intent = new Intent(this, four.class);

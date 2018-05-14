@@ -1,21 +1,16 @@
-// Still I am solving Exception when No Radio Button is Selected ! But temporary i solved by some trick (using invisible)
-
 
 package com.varma.sunil.myquizapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     public static int points = 0;
-    String answer1 = "4 September 1998";
 
 
     @Override
@@ -53,11 +48,11 @@ public class MainActivity extends AppCompatActivity {
 
 
             points = points + 1;
-            Toast.makeText(getApplicationContext(), "True", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), R.string.correct, Toast.LENGTH_SHORT).show();
 
 
         } else {
-            Toast.makeText(getApplicationContext(), "Wrong", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), R.string.wrong, Toast.LENGTH_SHORT).show();
 
         }
         //  }

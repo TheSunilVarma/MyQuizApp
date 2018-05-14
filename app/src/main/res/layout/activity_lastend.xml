@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
-        android:text="Final Score"
-        android:textSize="20sp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/final_score"
+        android:textSize="@dimen/_24sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="44dp" />
 
@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="71dp"
-        android:text="Exit"
+        android:layout_marginBottom="@dimen/_70dp"
+        android:text="@string/exit"
         android:onClick="finish"/>
 
     <TextView
@@ -34,9 +34,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="206dp"
-        android:textSize="50sp"
-        android:text="0/0" />
+        android:layout_marginTop="@dimen/_170dp"
+        android:textSize="@dimen/_70dp"
+        android:text="@string/_0_0" />
 
 
 </RelativeLayout>

@@ -1,5 +1,34 @@
 <resources>
     <string name="app_name">MyQuizApp</string>
     <string name="title_activity_five">five</string>
-    <string name="outof"> Out of 5</string>
+    <string name="outof">  Out of 5</string>
+    <string name="exit">Exit</string>
+    <string name="_0_0">0/0</string>
+    <string name="question_1">Question 1</string>
+    <string name="google_is_founded_in">Google is founded in ?</string>
+    <string name="_4_september_1998">4 September 1998</string>
+    <string name="_4_september_1997">4 September 1997</string>
+    <string name="_5_september_1998">5 September 1998</string>
+    <string name="none">none</string>
+    <string name="final_score">Final Score</string>
+    <string name="which_of_the_following_are_android_version">Which of the Following are android version ?</string>
+    <string name="question_3">Question 3</string>
+    <string name="next">Next</string>
+    <string name="oreo">Oreo</string>
+    <string name="all">All</string>
+    <string name="nacho">Nacho</string>
+    <string name="_true">True</string>
+    <string name="_false">False</string>
+    <string name="tick_true_if_you_are_human_get_one_extra_points_just_for_fun">Tick True if You Are HUMAN Get One Extra Points :) ! (Just For Fun)</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_5">Question 5</string>
+    <string name="which_app_logo_is_this">Which App Logo is This ?</string>
+    <string name="finish">Finish</string>
+    <string name="type_here">Type here</string>
+    <string name="correct">CORRECT</string>
+    <string name="wrong">WRONG</string>
+    <string name="turn_the_switch_on">Turn the Switch On !</string>
+    <string name="chrome">Chrome</string>
+    <string name="_0__1">{0}{1}</string>
+
 </resources>

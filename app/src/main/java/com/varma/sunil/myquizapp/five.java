@@ -26,13 +26,13 @@ public class five extends AppCompatActivity {
         EditText text = findViewById(R.id.editText);
         String selectedtext = String.valueOf(text.getText());
 
-        if(selectedtext.equalsIgnoreCase("Chrome")){
-            Toast.makeText(getApplicationContext(),"Correct",Toast.LENGTH_SHORT).show();
+        if(selectedtext.equalsIgnoreCase(getString(R.string.chrome))){
+            Toast.makeText(getApplicationContext(),R.string.correct,Toast.LENGTH_SHORT).show();
             points = points + 1;
 
         }
         else {
-            Toast.makeText(getApplicationContext(),"Wrong",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),R.string.wrong,Toast.LENGTH_SHORT).show();
 
         }
 

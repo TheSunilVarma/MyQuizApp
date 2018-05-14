@@ -12,22 +12,22 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
-        android:text="Question 5"
-        android:textSize="20sp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:text="@string/question_5"
+        android:textSize="@dimen/_20sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="44dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="290dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
-        android:padding="5dp"
-        android:text="Which App Logo is This ?"
-        android:textSize="24sp"
+        android:layout_marginTop="@dimen/_52"
+        android:padding="@dimen/_10dp"
+        android:text="@string/which_app_logo_is_this"
+        android:textSize="@dimen/_24sp"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="44dp" />
 
@@ -37,8 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="71dp"
-        android:text="Finish"
+        android:layout_marginBottom="@dimen/_70dp"
+        android:text="@string/finish"
         android:onClick="sendMessage5"/>
 
     <EditText
@@ -47,10 +47,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="171dp"
+        android:layout_marginBottom="@dimen/_170dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Type here" />
+        android:text="@string/type_here" />
 
     <ImageView
         android:id="@+id/imageView"

@@ -17,7 +17,7 @@ public class lastend extends AppCompatActivity {
         setContentView(R.layout.activity_lastend);
 
         TextView textView = findViewById(R.id.textView3);
-        textView.setText(MessageFormat.format("{0}{1}", points, getString(R.string.outof)));
+        textView.setText(MessageFormat.format(getString(R.string._0__1), points + " ", getString(R.string.outof)));
 
     }
 
